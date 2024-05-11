@@ -4,7 +4,7 @@ name: Continuous Integration
 on:
   pull_request:
   push:
-  
+
 jobs:
   prettier:
     runs-on: ubuntu-latest
@@ -23,6 +23,6 @@ jobs:
           prettier_options: --write **/*.{js,md}
 
       - name: install modules
-        run: yarn
+        run: npm
       - name: run ESLint
         run: eslint . --ext .js
