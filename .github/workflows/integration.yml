@@ -23,6 +23,6 @@ jobs:
           prettier_options: --write **/*.{js,md}
 
       - name: install modules
-        run: npm
+        run: npm init @eslint/config
       - name: run ESLint
-        run: eslint . --ext .js
+        run: npx eslint ./js/*.js
