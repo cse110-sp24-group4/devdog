@@ -4,6 +4,7 @@ name: Continuous Integration
 on:
   pull_request:
   push:
+    - dev
 
 jobs:
   prettier:
