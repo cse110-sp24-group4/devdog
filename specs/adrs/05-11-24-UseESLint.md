@@ -4,6 +4,8 @@
 
 How to check our code for errors and warnings regularly?
 
+## Considered Options
+
 - ESLint
 - JSLint
 - Run locally

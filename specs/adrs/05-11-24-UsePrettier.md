@@ -4,6 +4,8 @@
 
 How to keep code style consistent across our codebase?
 
+## Considered Options
+
 - Prettier
 - Manual code review/custom style
 
