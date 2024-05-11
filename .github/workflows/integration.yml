@@ -22,7 +22,5 @@ jobs:
           # This part is also where you can pass other options, for example:
           prettier_options: --write **/*.{js,md}
 
-      - name: install modules
-        run: npm init @eslint/config
       - name: run ESLint
         run: npx eslint ./js/*.js
