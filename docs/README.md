@@ -1,7 +1,9 @@
 # General documentation for DevDog by Ctrl Alt Elite
 
 ## Repository structure
+
 This repository will adhere to the following structure:
+
 ```
 devdog/
     /docs
@@ -18,6 +20,7 @@ devdog/
     index.html
     README.md
 ```
+
 - `/docs` will contain all documentation for the project. These should be `.md` documents detailing how the repository should be maintained. The subdirectory `/jsdoc` will contain the JSDoc generated for our project.
 - `/images` will contain any images we need for our project
 - `/js` will contain all the `.js` scripts we are implementing in our project. All files within this directory should have the `.js` extension.
@@ -26,9 +29,10 @@ devdog/
 - `index.html` will serve as the landing page when we publish
 - `README.md` in the main depository will serve as a README for the project which links to our documentation, contains a quickstart guide, or any other information relevant to an initial viewing of the repository.
 
-
 ## Branches
+
 Two primary branches will be maintained throughout the project.
+
 - `main` will serve as the release branch for the project.
 - `dev` will serve as the dev branch for the project. It will be protected by checks.
 
