@@ -4,7 +4,6 @@
 
 How to create and maintain documentation for all of our code?
 
-
 ## Considered Options
 
 - JSDoc
