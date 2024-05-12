@@ -1,8 +1,9 @@
 name: Continuous Integration
 
-# This action works with pushes
+# This action works with pull requests on protected branches and pushes
 on:
   push:
+  pull_request:
     branches:
       - dev
       - main
