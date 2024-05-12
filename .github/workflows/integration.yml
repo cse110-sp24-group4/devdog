@@ -38,5 +38,8 @@ jobs:
           # Make sure the actual branch is checked out when running on pull requests
           ref: ${{ github.head_ref }}
       
+      - name: install jest
+        run: npm i
+
       - name: Unit tests
         run: npm test ./js/__testing__/unit.test.js
