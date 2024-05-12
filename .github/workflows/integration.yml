@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  prettier:
+  linting:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +27,10 @@ jobs:
 
       - name: run ESLint
         run: npx eslint ./js/*.js
+  
+  unit-test:
+    runs-on: ubuntu-latest
 
+    steps:
       - name: Unit tests
-        run: npm test ./js/__tests__/unit.test.js
+        run: npm test ./js/__testing__/unit.test.js
