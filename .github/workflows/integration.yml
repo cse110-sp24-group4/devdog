@@ -29,4 +29,4 @@ jobs:
         run: npx eslint ./js/*.js
 
       - name: Unit tests
-        run: npm test ./js/__tests__/unit.test.js
+        run: npm test ./js/__testing__/unit.test.js
