@@ -11,5 +11,5 @@ test("should be true 2", () => {
 });
 
 test("should fail", () => {
-    expect(false).toBe(true);
+  expect(false).toBe(true);
 });
