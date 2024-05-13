@@ -9,3 +9,7 @@ test("should be false", () => {
 test("should be true 2", () => {
   expect(1 == 1).toBe(true);
 });
+
+test("should fail", () => {
+  expect(false).toBe(false);
+});
