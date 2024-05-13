@@ -4,10 +4,12 @@
 
 How to create and maintain documentation for all of our code?
 
-* JSDoc
-* ESDoc
-* Typescript
-* Manual documentation
+## Considered Options
+
+- JSDoc
+- ESDoc
+- Typescript
+- Manual documentation
 
 ## Decision Outcome
 
